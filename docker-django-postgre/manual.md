@@ -193,7 +193,7 @@ docker exec -it container_id python3 manage.py collectstatic
 ```
 docker exec -it container_id python3 manage.py createsuperuser
 ```
-## The finish step:
+## The final step:
 ### open our website in browser
 ```
 http://our_ip:8000
