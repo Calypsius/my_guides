@@ -70,7 +70,7 @@ ENV PYTHONUNBUFFERED 1
 
 WORKDIR /app
 
-COPY . ./home/sy/SurveyProjectX
+COPY . .
 
 RUN python -m pip install --upgrade pip setuptools wheel
 
